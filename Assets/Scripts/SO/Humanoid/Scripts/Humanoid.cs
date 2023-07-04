@@ -12,7 +12,12 @@ public class Humanoid : ScriptableObject
     private int _age;
     private int _educationLevel;
     private string _name;
-
+    public bool isGenderMale;
+    public bool isMarried;
+    public string statuco;
+    public bool isHeadofFamily;
+   
+    // bebek yap , aile reisi yap, çiftlikten yolla , okula gönder,ilaç ver
     public int Health
     {
         get => _health;
